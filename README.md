@@ -1,7 +1,7 @@
 # playwright-js
 Test POC with Playwright
 
-## Run tests
+### Run tests
 ```sh
 npx playwright test
 ```
