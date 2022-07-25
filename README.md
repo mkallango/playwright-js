@@ -1,4 +1,4 @@
-# playwright-js
+# Playwright-JS
 
 Test POC with Playwright
 
@@ -41,10 +41,12 @@ To do:
 
 ### Configure project
 
-To configure the project run the following command:
+* To configure the project run the following command:
 ```sh
 npm install
 ```
+
+* To configure which browser to run, modify the property config.projects at file **_playwright.config.js_**.
 
 -----
 
