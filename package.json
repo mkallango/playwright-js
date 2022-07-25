@@ -1,9 +1,13 @@
 {
-  "name": "luxoft-playwright",
+  "name": "playwright-js",
   "version": "1.0.0",
-  "description": "",
+  "description": "POC for automated tests with Playwright",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test":"npx playwright test",
+    "report":"npx playwright show-report",
+    "debug": "npx playwright test --debug"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
